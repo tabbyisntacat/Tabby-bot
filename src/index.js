@@ -17,7 +17,7 @@ client.on('ready', (c) =>{
 })
 
 client.on('messageCreate', (message) =>{
-    console.log(message)
+    console.log(message);
 
     if(message.content === "@everyone") 
     {
